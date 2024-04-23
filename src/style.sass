@@ -1,0 +1,48 @@
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    font-family: 'Poppins', sans-serif
+html
+    background-color: #cecece
+h1,h2,h3
+    font-family: 'Libre Caslon Text', serif !important
+p
+    font-family: 'Poppins', sans-serif !important
+.App
+    width: 100%
+    max-width: 600px
+    height: 100%
+    overflow-x: hidden
+    margin: auto
+.app-container
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-bottom: 100px
+    gap: 0px
+    background-color: #cecece
+    width: 100%
+    height: 100%
+    padding: 0 5px
+.fixed-top
+    position: fixed !important
+    top: 0
+    z-index: 10
+@media screen and (min-width:1000px)
+    .App
+        max-width: 1200px
+    .fb-cat-grid
+        grid-template-columns: repeat(4, 1fr) !important
+    .scrollable-tabs
+        max-width: 1200px !important
+@import ./fb_menu/card.sass
+@import ./fb_menu/fb_cat.sass
+@import ./components/bottom_nav.sass
+@import ./components/popup.sass
+@import ./banner/banner.sass
+@import ./footer/footer.sass
+@import ./components/scrollable_tabs.sass
+@import ./fb_menu/fb_collection.sass
+@import ./top_menu/topmenu.sass
+@import ./components/buttons.sass
