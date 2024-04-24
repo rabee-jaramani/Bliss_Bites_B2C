@@ -21,18 +21,17 @@ import strawberry_chilli_jam_with_toast from "./images/items/strawberry_chilli_j
 
 // Note you have to add vegan and
 export const menu_collections = [
-  { menu_name: "BREAKFAST", menu_img: Breakfast },
-  { menu_name: "ALL DAY MENU", menu_img: All_Day_Menu },
+  { menu_name: "Country Style Loaf Boulangerie", menu_img: '' },
   {
-    menu_name: "Chef's Must-Have Sides",
-    menu_img: strawberry_chilli_jam_with_toast,
+    menu_name: "Patisserie",menu_img: '',
   },
-  { menu_name: "Vegan Plant Based", menu_img: berry_bliss_acai },
-  { menu_name: "BEVERAGES", menu_img: Beverages },
-  { menu_name: "BLISSFUL DESSERTS", menu_img: Blissful_Desserts },
+  { menu_name: "Fromagerie", menu_img: '' },
+  { menu_name: "Condiments", menu_img: '' },
+  { menu_name: "Viennoiserie", menu_img: '' },
+  { menu_name: "Truffle", menu_img: '' },
 ];
 
-export const food_collections = ["BREAKFAST", "ALL DAY MENU"];
+export const food_collections = ["Country Style Loaf Boulangerie", "Patisserie",'Fromagerie','Condiments','Viennoiserie','Truffle'];
 export const food_categories = [
   "Acai of Relief",
   "Power Protien",
@@ -46,22 +45,6 @@ export const food_categories = [
   "No Dough Burger",
   "Pasta",
 ];
-export const drinks_collections = ["BEVERAGES"];
-export const drinks_categories = [
-  "Mocktails - Detox Juice",
-  "Iced Coffee",
-  "Coffee Organic",
-  "Herbal Tea",
-  "Drinks",
-];
 
-export const desserts_collections = ["BLISSFUL DESSERTS"];
-export const desserts_categories = [
-  `Chef's Favourites Plated Desserts`,
-  "Tarts",
-  "Cheesecake",
-  "Cakes Galore",
-  "Tea Cakes",
-];
 export const chef_must_have_collections = ["Chef's Must-Have Sides"];
 export const chef_must_have_categories = ["Chef's Must-Have Sides"];

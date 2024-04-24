@@ -28,7 +28,7 @@ const ScrollableTabsMenu: React.FC<ScrollableTabsMenuProps | any> = ({
           variant="scrollable"
           scrollButtons={true}
           aria-label="visible arrows tabs example"
-          style={{ backgroundColor: "#e4edef" }}
+          // style={{ backgroundColor: "#e4edef" }}
           sx={{
             [`& .${tabsClasses.scrollButtons}`]: {
               "&.Mui-disabled": { opacity: 0.3 },

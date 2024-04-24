@@ -7,67 +7,17 @@ import creamy_sweet_potato_mash from "../images/items/creamy_sweet_potato_mash.w
 
 export const chef_must_have_sides = [
   {
-    parentCatName: "Chef's Must-Have Sides",
+    parentCatName: "Country Style Loaf Boulangerie",
     parentCatCollection: [
       {
-        categoryName: "Chef's Must-Have Sides",
+        categoryName: "Breads",
         items: [
-          {
-            itemName: "Strawberry Chilli Jam with Toast",
-            price: "15",
-            description: "",
-            image: strawberry_chilli_jam_with_toast,
-            allergies: [""],
-            addons: [
-              "*All our dishes are made with millets *Kindly inquire for plant-based alternatives.",
-            ],
-            serve1: "Serves 1",
-          },
-          {
-            itemName: "Creamy Sweet Potato Mash",
-            price: "15",
-            description: "",
-            image: creamy_sweet_potato_mash,
-            allergies: [""],
-            addons: [
-              "*All our dishes are made with millets *Kindly inquire for plant-based alternatives.",
-            ],
-            serve1: "Serves 1",
-          },
-
-          {
-            itemName: "Mango Passionfruit Chilli Jam with Toast",
-            price: "15",
-            description: "",
-            image: mango_passionfruit_chilli_jam_with_toast,
-            allergies: [""],
-            addons: [
-              "*All our dishes are made with millets *Kindly inquire for plant-based alternatives.",
-            ],
-            serve1: "Serves 1",
-          },
-          {
-            itemName: "Cheesy Potato Wedges",
-            price: "20",
-            description: "",
-            image: cheesy_potato_wedges,
-            allergies: [""],
-            addons: [
-              "*All our dishes are made with millets *Kindly inquire for plant-based alternatives.",
-            ],
-            serve1: "Serves 1",
-          },
-          {
-            itemName: "Artisan Cheeses",
-            price: "40",
-            description: "",
-            image: artisan_cheeses,
-            allergies: [""],
-            addons: [
-              "*All our dishes are made with millets *Kindly inquire for plant-based alternatives.",
-            ],
-            serve1: "Serves 1",
-          },
+          
+          {itemName:'Brioche Bread',price:'60',description:'Indian origin millet flour, Butter, Milk, Eggs, Salt, Agave Syrup, Yeast',image:placeholder,allergies:['Free from: Wheat'],packaging:'1pc',yield:'350g'},
+          {itemName:'Country Style Slice Bread',price:'48',description:'Indian origin millet flour, Agave Syrup, Pink Salt, Yeast, Sunflower oil, Water',image:placeholder,allergies:['Plant Based, Free From: Wheat,  Dairy, Refined Sugar & Eggs '],packaging:'1pc',yield:'350g'},
+          {itemName:'Country Style Ciabatta',price:'48',description:'Indian origin millet flour, Pink Salt, Yeast, Starter, Water',image:placeholder,allergies:['Plant Based, Free From: Wheat,  Dairy, Refined Sugar & Eggs '],packaging:'1pc',yield:'300g'},
+          {itemName:'Cranberry Chilli Ciabatta',price:'49',description:'Indian origin millet flour, Pink Salt, Yeast, Starter, Dry Cranberries, Green Chilli, Water',image:placeholder,allergies:['Plant Based, Free From: Wheat,  Dairy, Refined Sugar & Eggs '],packaging:'1pc',yield:'300g'},
+          {itemName:'Burger Bun',price:'35',description:'Indian origin millet flour, Agave Syrup, Pink Salt, Yeast, Sunflower oil, Water',image:placeholder,allergies:['Plant Based, Free from: Wheat, Dairy, Refined Sugars, Eggs'],packaging:'3pcs',yield:'300g'},
         ],
       },
     ],

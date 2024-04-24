@@ -3,15 +3,11 @@ import Banner from "./banner/Banner";
 import BottomNav from "./components/BottomNav";
 import Footer from "./footer/Footer";
 
-import { food } from "./data/food";
-import { drinks } from "./data/drinks";
-import { desserts } from "./data/desserts";
+
 import { chef_must_have_sides } from "./data/chef_must_have_sides";
-import { vegan_plant_based } from "./data/vegan_plant_based";
 import { menu_collections } from "./data2";
 import { food_categories } from "./data2";
-import { drinks_categories } from "./data2";
-import { desserts_categories } from "./data2";
+
 import { chef_must_have_categories } from "./data2";
 import TopMenu from "./top_menu/TopMenu";
 import FB_MENU from "./fb_menu/FB_MENU";
@@ -55,8 +51,6 @@ function App() {
   };
   const menu_categories = [
     ...food_categories,
-    ...drinks_categories,
-    ...desserts_categories,
     ...chef_must_have_categories,
   ];
 
@@ -105,7 +99,7 @@ function App() {
           setSelectedCategory={setSelectedCategory}
           scrollTo={scrollTo}
         />
-        <FB_MENU
+        {/* <FB_MENU
           selectedFB_type={selectedFB_type}
           handleFB_Change={handleFB_Change}
           FB_List_To_Render={food}
@@ -113,7 +107,7 @@ function App() {
           setSelectedCategory={setSelectedCategory}
           selectedCollection={selectedCollection}
           setSelectedCollection={setSelectedCollection}
-        />
+        /> */}
         <FB_MENU
           selectedFB_type={selectedFB_type}
           handleFB_Change={handleFB_Change}
@@ -123,7 +117,7 @@ function App() {
           selectedCollection={selectedCollection}
           setSelectedCollection={setSelectedCollection}
         />
-        <FB_MENU
+        {/* <FB_MENU
           selectedFB_type="Drinks"
           handleFB_Change={handleFB_Change}
           FB_List_To_Render={drinks}
@@ -150,7 +144,7 @@ function App() {
           setSelectedCategory={setSelectedCategory}
           selectedCollection={selectedCollection}
           setSelectedCollection={setSelectedCollection}
-        />
+        /> */}
         {/* <BottomNav
           selectedFB_type={selectedFB_type}
           setSelectedFB_type={setSelectedFB_type}

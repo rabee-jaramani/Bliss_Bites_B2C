@@ -4,7 +4,7 @@ export default function Card({ item }: any) {
   console.log('item',item)
   return (
     <div className="card">
-      <img src={item.image} alt={item.itemName} />
+      <img className="item-img" src={item.image} alt={item.itemName} />
       <div className="item-details-div">
         <h3 className="item-name">{item.itemName}</h3>
         <p className="item-description">
@@ -12,23 +12,32 @@ export default function Card({ item }: any) {
             ? item.description.slice(0, 45) + "..."
             : item.description}
         </p>
-        {item.allergies[0] ? (
-          <div className="allergies-div">
-            {item.allergies.map((icon: any) => {
-              return (
-                <img key={icon.allergyName} src={icon.allergySrc} alt={icon.allergyName} />
-              );
-            })}
+
+        <div className="yield-packaging-div">
+            <p>Weight: 320g</p>
+            <p>Packaging: 2pcs</p>
+        </div>
+
+        {/* Allergies and price */}
+        <div className="allergies-price-div">
+          Allergies
+          {/* {item.allergies[0] ? (
+            <div className="allergies-div">
+              {item.allergies.map((icon: any) => {
+                return (
+                  <img key={icon.allergyName} src={icon.allergySrc} alt={icon.allergyName} />
+                );
+              })}
+            </div>
+          ) : (
+            ""
+          )} */}
+          <div className="price-readmore">
+            <h3 className="item-price">
+              <span className="aed">AED</span>
+              {item.price}
+            </h3>
           </div>
-        ) : (
-          ""
-        )}
-        <div className="price-readmore">
-          <p className="weight">0.5 KG</p>
-          <h3 className="item-price">
-            <span className="aed">AED</span>
-            {item.price}
-          </h3>
         </div>
       </div>
       <ModalPopUp itemDetails={item} />

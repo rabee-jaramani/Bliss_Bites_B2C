@@ -15,7 +15,6 @@ const style = {
   bgcolor: "background.paper",
   boxShadow: 24,
   // p: 2,
-  borderRadius: "25px",
   maxHeight: "85%",
   overflowY: "scroll",
 };
@@ -53,26 +52,6 @@ export default function ModalPopUp({ itemDetails }: any) {
             <img src={itemDetails.image} alt={itemDetails.itemName} />
           </div>
           <div className="details-div">
-            {itemDetails.allergies[0] !== "" ? (
-              itemDetails.allergies[0].allergyName
-                .toLowerCase()
-                .includes(`chef`) ? (
-                <>
-                  <div className="popup-icon-name-div">
-                    <img
-                      alt={itemDetails.allergies[0].allergyName}
-                      width={25}
-                      src={itemDetails.allergies[0].allergySrc}
-                    />
-                    <span>{itemDetails.allergies[0].allergyName}</span>
-                  </div>
-                </>
-              ) : (
-                ""
-              )
-            ) : (
-              ""
-            )}
 
             <div className="under-image-div">
               <Typography
@@ -137,7 +116,8 @@ export default function ModalPopUp({ itemDetails }: any) {
             {/* allergies */}
             {itemDetails.allergies[0] !== "" ? (
               <div className="allergies-icons-div">
-                {itemDetails.allergies.map((allergy: any) => {
+                Allergies
+                {/* {itemDetails.allergies.map((allergy: any) => {
                   return (
                     <>
                       {allergy.allergyName.toLowerCase().includes(`chef`) ? (
@@ -157,64 +137,12 @@ export default function ModalPopUp({ itemDetails }: any) {
                       )}
                     </>
                   );
-                })}
+                })} */}
               </div>
             ) : (
               ""
             )}
-            {/* below check if te item is for Chef Must Have to remove the add on */}
-            {!itemDetails.serve1 ? (
-              itemDetails.addons[0] !== "" ? (
-                // Now check if the item has addons image
-                itemDetails.addons_img ? (
-                  <div className="addons-img-div">
-                    <img alt="alt" src={itemDetails.addons_img} />
-                  </div>
-                ) : (
-                  <div className="add-on-div">
-                    <Typography
-                      className="popup-text"
-                      id="modal-modal-addon"
-                      sx={{ mt: 2 }}
-                      fontSize={14}
-                    >
-                      <strong
-                        style={{
-                          color: "#045768",
-                          fontFamily: "'Libre Caslon Text', serif",
-                        }}
-                      >
-                        Add On:
-                      </strong>
-                    </Typography>
-                    {itemDetails.addons.map((addon: any, index: any) => {
-                      return <span key={index}>{addon}</span>;
-                    })}
-                  </div>
-                )
-              ) : (
-                ""
-              )
-            ) : (
-              <div className="add-on-div">
-                <Typography
-                  className="popup-text"
-                  id="modal-modal-addon"
-                  sx={{ mt: 2 }}
-                  fontSize={14}
-                >
-                  <strong
-                    style={{
-                      color: "#045768",
-                      fontFamily: "'Libre Caslon Text', serif",
-                    }}
-                  >
-                    Serves 1
-                  </strong>
-                </Typography>
-              </div>
-            )}
-            {/* END check if te item is for Chef Must Have to remove the add on */}
+
 
             <Typography
               className="no-added"
