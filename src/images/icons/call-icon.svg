@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52.588" height="52.588" viewBox="0 0 52.588 52.588">
+    <defs>
+        <filter id="3njbdmmmja" x="0" y="0" width="52.588" height="52.588" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g data-name="Group 276">
+        <g style="filter:url(#3njbdmmmja)">
+            <circle data-name="Ellipse 2" cx="17" cy="17" r="17" transform="translate(9.004 6.594)" style="fill:#fff;opacity:.75"/>
+        </g>
+        <g data-name="Group 273">
+            <g data-name="Group 274">
+                <path data-name="Path 3406" d="M77.306 73.05a20.703 20.703 0 0 0-1.6-.7c-.238-.085-.78-.321-.973-.17-.6.484-1.241 1.837-1.921 2.094a9.624 9.624 0 0 1-4.485-2.618 15.285 15.285 0 0 1-1.773-2.335c-.036-.4.694-.933.855-1.235.849-.937.2-1.515.094-1.909-.188-.4-.521-1.115-.805-1.711-.242-.39-.3-.957-.743-1.176-1.863-.938-2.924.934-3.364 1.91-2.632 6.2 13.2 18.01 16.426 9.879.163-.71.1-.971-.155-1.3a14.018 14.018 0 0 0-1.554-.73" transform="rotate(-105.01 30.493 63.61)" style="fill:#045768"/>
+            </g>
+        </g>
+    </g>
+</svg>

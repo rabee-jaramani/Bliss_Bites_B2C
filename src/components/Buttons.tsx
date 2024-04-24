@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button } from "@mui/material";
-
+import CallIcon from '@mui/icons-material/Call';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 const Buttons = () => {
   const handleClick = () => {
     window.open(
@@ -11,11 +12,11 @@ const Buttons = () => {
 
   return (
     <div className="buttons-div">
-      <Button size="small" onClick={handleClick}>
-        Whatssap
+      <Button size="small" onClick={handleClick} startIcon={<WhatsAppIcon/>}>
+
       </Button>
-      <Button size="small" onClick={handleClick}>
-        Call Us
+      <Button size="small" onClick={handleClick} startIcon={<CallIcon/>}>
+    
       </Button>
       <Button size="small" onClick={handleClick}>
         About Us
