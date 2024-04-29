@@ -4,11 +4,10 @@ import BottomNav from "./components/BottomNav";
 import Footer from "./footer/Footer";
 
 
-import { chef_must_have_sides } from "./data/chef_must_have_sides";
+import { items } from "./data/items";
 import { menu_collections } from "./data2";
 import { food_categories } from "./data2";
 
-import { chef_must_have_categories } from "./data2";
 import TopMenu from "./top_menu/TopMenu";
 import FB_MENU from "./fb_menu/FB_MENU";
 import AboutUsButton from "./components/Buttons";
@@ -51,7 +50,6 @@ function App() {
   };
   const menu_categories = [
     ...food_categories,
-    ...chef_must_have_categories,
   ];
 
   // state to handle fb_type change food drinks dessrts
@@ -111,7 +109,7 @@ function App() {
         <FB_MENU
           selectedFB_type={selectedFB_type}
           handleFB_Change={handleFB_Change}
-          FB_List_To_Render={chef_must_have_sides}
+          FB_List_To_Render={items}
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
           selectedCollection={selectedCollection}

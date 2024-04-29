@@ -33,18 +33,13 @@ export const menu_collections = [
 
 export const food_collections = ["Country Style Loaf Boulangerie", "Patisserie",'Fromagerie','Condiments','Viennoiserie','Truffle'];
 export const food_categories = [
-  "Acai of Relief",
-  "Power Protien",
-  "French Toast - Savoury",
-  "French Toast - Sweet",
-  "French Toast - Open Toasts",
-  "Soups",
-  "Salads",
-  "Bowls",
-  "Wraps and Crêpes",
-  "No Dough Burger",
-  "Pasta",
+  "Breads",
+  "Wraps",
+  "Cakes",
+  "Cheeses",
+  "Crackers",
+  "Jams",
+  "Suaces",
+  "Tart",
+  "Truffle Balls",
 ];
-
-export const chef_must_have_collections = ["Chef's Must-Have Sides"];
-export const chef_must_have_categories = ["Chef's Must-Have Sides"];
