@@ -86,6 +86,10 @@ export default function ModalPopUp({ itemDetails }: any) {
                 </strong>
               </Typography>
             </div>
+            <div className="yield-packaging-div">
+              <p>Weight: {itemDetails.yield}</p>
+              <p>Packaging: {itemDetails.packaging}</p>
+            </div>
             {itemDetails.description ? (
               <Typography
                 id="modal-modal-description"

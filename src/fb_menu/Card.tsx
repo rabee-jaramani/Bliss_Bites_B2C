@@ -14,8 +14,8 @@ export default function Card({ item }: any) {
         </p>
 
         <div className="yield-packaging-div">
-            <p>Weight: 320g</p>
-            <p>Packaging: 2pcs</p>
+            <p>Weight: {item.yield}</p>
+            <p>Packaging: {item.packaging}</p>
         </div>
 
         {/* Allergies and price */}
