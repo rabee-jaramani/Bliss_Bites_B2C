@@ -108,6 +108,15 @@ export const items = [
     parentCatName: "Condiments",
     parentCatCollection: [
       {
+        categoryName: "Crackers",
+        items: [
+          {itemName:'Ragi chia Seed crakers',price:'42',description:'Indian origin millet flour, Ragi Aata, Pink Salt, Yeast, Honey, Water, Black Chia Seeds',image:ragi_chia_seed_crakers,allergies:['plant_based,free_from_wheat,dairy,refined_sugar,eggs '],packaging:'1 Pack',yield:'150g'},
+          {itemName:'Rosemary crackers',price:'42',description:'Indian origin millet flour, Dry Rosemery, Pink Salt, Yeast, Honey, Water',image:rosemary_crackers,allergies:['plant_based,free_from_wheat,dairy,refined_sugar,eggs '],packaging:'1 Pack',yield:'150g'},
+          {itemName:'Zaatar crackers',price:'42',description:'Indian origin millet flour, Zaatar Powder, Pink Salt, Yeast, Honey, Water',image:zaatar_crackers,allergies:['plant_based,free_from_wheat,dairy,refined_sugar,eggs '],packaging:'1 Pack',yield:'150g'},
+          {itemName:'Sumac crackers',price:'42',description:'Indian origin millet flour, Sumac Powder, Pink Salt, Yeast, Honey, Water',image:sumac_crackers,allergies:['plant_based,free_from_wheat,dairy,refined_sugar,eggs '],packaging:'1 Pack',yield:'150g'},  
+        ],
+      },
+      {
         categoryName: "Jams",
         items: [
           {itemName:'Raspberry Truffle Jam',price:'35',description:'Fresh Raspberry, Agave Syrup, Water, Truffle Oil',image:raspberry_truffle_jam,allergies:['plant_based,free_from_wheat,dairy,refined_sugar,eggs '],packaging:'1pc',yield:'100g'},
@@ -116,7 +125,7 @@ export const items = [
       ],
       },
       {
-        categoryName: "Sauses",
+        categoryName: "Sauces",
         items: [
           {itemName:'Sriracha Sauce',price:'45',description:'Red Chilli, Water, Garlic, Coconut Sugar, Pink Salt, Vinegar',image:sriracha_sauce,allergies:['plant_based,free_from_wheat,dairy,refined_sugar,eggs '],packaging:'1pc',yield:'100g'},
       ],

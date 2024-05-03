@@ -39,7 +39,7 @@ export const food_categories = [
   "Cheeses",
   "Crackers",
   "Jams",
-  "Suaces",
+  "Sauces",
   "Tart",
   "Truffle Balls",
 ];
