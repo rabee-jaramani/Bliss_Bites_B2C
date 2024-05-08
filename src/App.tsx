@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Banner from "./banner/Banner";
 import BottomNav from "./components/BottomNav";
 import Footer from "./footer/Footer";
@@ -45,11 +45,12 @@ function App() {
           clearInterval(scrollInterval);
         }
       }, 15);
-      setSelectedCollection("BREAKFAST");
+      setSelectedCollection("Country Style Loaf Boulangerie");
     }
   };
   const menu_categories = [
-    ...food_categories,
+    "Breads",
+    "Wraps",
   ];
 
   // state to handle fb_type change food drinks dessrts
@@ -83,6 +84,20 @@ function App() {
     //   setFB_List_To_Render(cloud_kitchen_full_menu);
     // }
   };
+useEffect(() => {
+  if(selectedCollection==='Country Style Loaf Boulangerie')
+    setSelectedCategoriesTabs([  "Breads", "Wraps",])
+    if(selectedCollection==='Patisserie')
+    setSelectedCategoriesTabs(["Cakes",])
+    if(selectedCollection==='Fromagerie')
+    setSelectedCategoriesTabs([ "Cheeses",])
+    if(selectedCollection==='Condiments')
+    setSelectedCategoriesTabs([ "Crackers", "Jams", "Sauces",])
+    if(selectedCollection==='Viennoiserie')
+    setSelectedCategoriesTabs([ "Tart",])
+    if(selectedCollection==='Truffle')
+    setSelectedCategoriesTabs([ "Truffle Balls"])
+}, [selectedCollection])
 
   return (
     <div className="App">

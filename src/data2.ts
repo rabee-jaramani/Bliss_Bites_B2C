@@ -22,9 +22,7 @@ import strawberry_chilli_jam_with_toast from "./images/items/strawberry_chilli_j
 // Note you have to add vegan and
 export const menu_collections = [
   { menu_name: "Country Style Loaf Boulangerie", menu_img: '' },
-  {
-    menu_name: "Patisserie",menu_img: '',
-  },
+  { menu_name: "Patisserie",menu_img: '', },
   { menu_name: "Fromagerie", menu_img: '' },
   { menu_name: "Condiments", menu_img: '' },
   { menu_name: "Viennoiserie", menu_img: '' },
