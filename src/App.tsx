@@ -4,7 +4,7 @@ import BottomNav from "./components/BottomNav";
 import Footer from "./footer/Footer";
 
 
-import { items } from "./data/items";
+import { items_1,items_2,items_3,items_4,items_5,items_6 } from "./data/items";
 import { menu_collections } from "./data2";
 import { food_categories } from "./data2";
 
@@ -13,6 +13,7 @@ import FB_MENU from "./fb_menu/FB_MENU";
 import AboutUsButton from "./components/Buttons";
 import Buttons from "./components/Buttons";
 function App() {
+  const [selectedItems, setSelectedItems] = useState(items_1)
   const scrollTo = (where: string, tabName: string) => {
     if (where === "collection") {
       const element = document.getElementById(
@@ -85,18 +86,35 @@ function App() {
     // }
   };
 useEffect(() => {
-  if(selectedCollection==='Country Style Loaf Boulangerie')
+  if(selectedCollection==='Country Style Loaf Boulangerie'){
     setSelectedCategoriesTabs([  "Breads", "Wraps",])
-    if(selectedCollection==='Patisserie')
-    setSelectedCategoriesTabs(["Cakes",])
-    if(selectedCollection==='Fromagerie')
-    setSelectedCategoriesTabs([ "Cheeses",])
-    if(selectedCollection==='Condiments')
-    setSelectedCategoriesTabs([ "Crackers", "Jams", "Sauces",])
-    if(selectedCollection==='Viennoiserie')
-    setSelectedCategoriesTabs([ "Tart",])
-    if(selectedCollection==='Truffle')
-    setSelectedCategoriesTabs([ "Truffle Balls"])
+    setSelectedItems(items_1)
+  }
+    if(selectedCollection==='Patisserie'){
+      setSelectedCategoriesTabs(["Cakes",])
+      setSelectedItems(items_2)
+
+    }
+    if(selectedCollection==='Fromagerie'){
+      setSelectedCategoriesTabs([ "Cheese",])
+      setSelectedItems(items_3)
+
+    }
+    if(selectedCollection==='Condiments'){
+      setSelectedCategoriesTabs([ "Crackers", "Jams", "Sauces",])
+      setSelectedItems(items_4)
+
+    }
+    if(selectedCollection==='Viennoiserie'){
+      setSelectedCategoriesTabs([ "Tart",])
+      setSelectedItems(items_5)
+
+    }
+    if(selectedCollection==='Truffle'){
+      setSelectedCategoriesTabs([ "Truffle Balls"])
+      setSelectedItems(items_6)
+
+    }
 }, [selectedCollection])
 
   return (
@@ -124,12 +142,13 @@ useEffect(() => {
         <FB_MENU
           selectedFB_type={selectedFB_type}
           handleFB_Change={handleFB_Change}
-          FB_List_To_Render={items}
+          FB_List_To_Render={selectedItems}
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
           selectedCollection={selectedCollection}
           setSelectedCollection={setSelectedCollection}
         />
+        
         {/* <FB_MENU
           selectedFB_type="Drinks"
           handleFB_Change={handleFB_Change}

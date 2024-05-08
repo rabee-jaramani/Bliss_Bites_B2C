@@ -34,7 +34,7 @@ export const food_categories = [
   "Breads",
   "Wraps",
   "Cakes",
-  "Cheeses",
+  "Cheese",
   "Crackers",
   "Jams",
   "Sauces",
