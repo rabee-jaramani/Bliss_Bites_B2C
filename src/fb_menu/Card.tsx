@@ -20,8 +20,7 @@ export default function Card({ item }: any) {
 
         {/* Allergies and price */}
         <div className="allergies-price-div">
-          Allergies
-          {/* {item.allergies[0] ? (
+          {item.allergies[0] ? (
             <div className="allergies-div">
               {item.allergies.map((icon: any) => {
                 return (
@@ -31,7 +30,7 @@ export default function Card({ item }: any) {
             </div>
           ) : (
             ""
-          )} */}
+          )}
           <div className="price-readmore">
             <h3 className="item-price">
               <span className="aed">AED</span>

@@ -120,8 +120,8 @@ export default function ModalPopUp({ itemDetails }: any) {
             {/* allergies */}
             {itemDetails.allergies[0] !== "" ? (
               <div className="allergies-icons-div">
-                Allergies
-                {/* {itemDetails.allergies.map((allergy: any) => {
+                
+                {itemDetails.allergies.map((allergy: any) => {
                   return (
                     <>
                       {allergy.allergyName.toLowerCase().includes(`chef`) ? (
@@ -141,7 +141,7 @@ export default function ModalPopUp({ itemDetails }: any) {
                       )}
                     </>
                   );
-                })} */}
+                })}
               </div>
             ) : (
               ""
