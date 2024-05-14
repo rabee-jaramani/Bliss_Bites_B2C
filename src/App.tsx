@@ -46,22 +46,25 @@ function App() {
           clearInterval(scrollInterval);
         }
       }, 15);
-      setSelectedCollection("Country Style Loaf Boulangerie");
+      setSelectedCollection("BOULANGERIE");
     }
   };
   const menu_categories = [
-    "Breads",
-    "Wraps",
+    "BREADS",
+    "PIZZA BASES",
+    "WRAPS",
+    "BETWEEN THE BUNS",
+    "LOCAL AMORE",
   ];
 
   // state to handle fb_type change food drinks dessrts
   const [selectedFB_type, setSelectedFB_type] = useState("Food");
 
   // selected Collection
-  const [selectedCollection, setSelectedCollection] = useState("BREAKFAST");
+  const [selectedCollection, setSelectedCollection] = useState("BOULANGERIE");
 
   // selected Category
-  const [selectedCategory, setSelectedCategory] = useState("Acai of Relief");
+  const [selectedCategory, setSelectedCategory] = useState("BREADS");
 
   // collections to render in tabs
   const [selectedCollectionsTabs, setSelectedCollectionsTabs] =
@@ -86,32 +89,32 @@ function App() {
     // }
   };
 useEffect(() => {
-  if(selectedCollection==='Country Style Loaf Boulangerie'){
-    setSelectedCategoriesTabs([  "Breads", "Wraps",])
+  if(selectedCollection==='BOULANGERIE'){
+    setSelectedCategoriesTabs([ "BREADS","PIZZA BASES","WRAPS","BETWEEN THE BUNS", "LOCAL AMORE",])
     setSelectedItems(items_1)
   }
-    if(selectedCollection==='Patisserie'){
-      setSelectedCategoriesTabs(["Cakes",])
+    if(selectedCollection==='PATTISSERIE'){
+      setSelectedCategoriesTabs(["TARTS","CAKES","TEA CAKES","MUFFINS","BREAKFAST ESSENTIALS","TRUFFLES",])
       setSelectedItems(items_2)
 
     }
-    if(selectedCollection==='Fromagerie'){
-      setSelectedCategoriesTabs([ "Cheese",])
+    if(selectedCollection==='VIENNOISERIE'){
+      setSelectedCategoriesTabs([ "CROISSANTS & DANISH",])
       setSelectedItems(items_3)
 
     }
-    if(selectedCollection==='Condiments'){
-      setSelectedCategoriesTabs([ "Crackers", "Jams", "Sauces",])
+    if(selectedCollection==='FROMAGERIE'){
+      setSelectedCategoriesTabs(["CHEESE","CHEESE PLATTER",])
       setSelectedItems(items_4)
 
     }
-    if(selectedCollection==='Viennoiserie'){
-      setSelectedCategoriesTabs([ "Tart",])
+    if(selectedCollection==='CRACKERS'){
+      setSelectedCategoriesTabs([ "CRACKERS",])
       setSelectedItems(items_5)
 
     }
-    if(selectedCollection==='Truffle'){
-      setSelectedCategoriesTabs([ "Truffle Balls"])
+    if(selectedCollection==='CONDIMENTS'){
+      setSelectedCategoriesTabs([ "JAMS & SAUCES"])
       setSelectedItems(items_6)
 
     }

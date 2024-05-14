@@ -21,23 +21,30 @@ import strawberry_chilli_jam_with_toast from "./images/items/strawberry_chilli_j
 
 // Note you have to add vegan and
 export const menu_collections = [
-  { menu_name: "Country Style Loaf Boulangerie", menu_img: '' },
-  { menu_name: "Patisserie",menu_img: '', },
-  { menu_name: "Fromagerie", menu_img: '' },
-  { menu_name: "Condiments", menu_img: '' },
-  { menu_name: "Viennoiserie", menu_img: '' },
-  { menu_name: "Truffle", menu_img: '' },
+  { menu_name: "BOULANGERIE", menu_img: '' },
+  { menu_name: "PATTISSERIE",menu_img: '', },
+  { menu_name: "VIENNOISERIE", menu_img: '' },
+  { menu_name: "FROMAGERIE", menu_img: '' },
+  { menu_name: "CRACKERS", menu_img: '' },
+  { menu_name: "CONDIMENTS", menu_img: '' },
 ];
 
-export const food_collections = ["Country Style Loaf Boulangerie", "Patisserie",'Fromagerie','Condiments','Viennoiserie','Truffle'];
+export const food_collections = ["BOULANGERIE", "PATTISSERIE",'VIENNOISERIE','FROMAGERIE','CRACKERS','CONDIMENTS'];
 export const food_categories = [
-  "Breads",
-  "Wraps",
-  "Cakes",
-  "Cheese",
-  "Crackers",
-  "Jams",
-  "Sauces",
-  "Tart",
-  "Truffle Balls",
+  "BREADS",
+  "PIZZA BASES",
+  "WRAPS",
+  "BETWEEN THE BUNS",
+  "LOCAL AMORE",
+  "TARTS",
+  "CAKES",
+  "TEA CAKES",
+  "MUFFINS",
+  "BREAKFAST ESSENTIALS",
+  "TRUFFLES",
+  "CROISSANTS & DANISH",
+  "CHEESE",
+  "CHEESE PLATTER",
+  "CRACKERS",
+  "JAMS & SAUCES"
 ];

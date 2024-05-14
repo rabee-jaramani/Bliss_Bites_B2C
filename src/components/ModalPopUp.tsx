@@ -75,21 +75,27 @@ export default function ModalPopUp({ itemDetails }: any) {
                 // sx={{ mt: 0.3 }}
                 fontSize={14}
               >
-                <span style={{ fontSize: "12px" }}>AED</span>
+              
                 <strong
                   style={{
-                    fontSize: "22px",
+                    fontSize: "16px",
                     fontFamily: "'Libre Caslon Text', serif",
                   }}
                 >
-                  {itemDetails.price}
+ 
+              {/* <span className="aed">AED</span> */}
+              
+              {itemDetails.price.split(',').map((price: string) => <><span className="aed">AED</span>{price.trim()}</>).map((price:any, index:any) => (
+                <span key={index}>{price} </span>
+              ))}
+     
                 </strong>
               </Typography>
             </div>
             <div className="yield-packaging-div">
-              <p>Weight: {itemDetails.yield}</p>
-              <p>Packaging: {itemDetails.packaging}</p>
-            </div>
+            <div><span className="weight-packaging">Weight: </span>{itemDetails.yield}</div>
+            <div><span className="weight-packaging">Packaging: </span>{itemDetails.packaging}</div>
+        </div>
             {itemDetails.description ? (
               <Typography
                 id="modal-modal-description"
@@ -124,9 +130,7 @@ export default function ModalPopUp({ itemDetails }: any) {
                 {itemDetails.allergies.map((allergy: any) => {
                   return (
                     <>
-                      {allergy.allergyName.toLowerCase().includes(`chef`) ? (
-                        ""
-                      ) : (
+                     
                         <div
                           className="popup-icon-name-div"
                           key={allergy.allergyName}
@@ -136,9 +140,9 @@ export default function ModalPopUp({ itemDetails }: any) {
                             width={25}
                             src={allergy.allergySrc}
                           />
-                          <span>{allergy.allergyName}</span>{" "}
+                          <span>{allergy.allergyName}</span>
                         </div>
-                      )}
+                      
                     </>
                   );
                 })}

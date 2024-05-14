@@ -46,17 +46,25 @@
     display: flex
     justify-content: space-between
     align-items: center
-.yield-packaging-div p
+.yield-packaging-div
     color: #0F6A7C
-    font-size: 12px
     font-weight: bold
+
 .item-price
     margin-top: 5px
     font-weight: bold
-    font-size: 18px
+    font-size: 16px
     color: #0F6A7C !important
 .aed
     display: inline-block
     font-size: 10px
+    color: #585858
 .item-name,.item-price
     color: #585858
+.weight-packaging
+    color: #585858
+    font-size: 14px
+@media screen and (max-width:600px)
+    .yield-packaging-div,.allergies-price-div,.under-image-div
+        flex-direction: column
+        align-items: start !important
