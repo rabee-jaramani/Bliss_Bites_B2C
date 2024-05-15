@@ -93,8 +93,8 @@ export default function ModalPopUp({ itemDetails }: any) {
               </Typography>
             </div>
             <div className="yield-packaging-div">
-            <div><span className="weight-packaging">Weight: </span>{itemDetails.yield}</div>
-            <div><span className="weight-packaging">Packaging: </span>{itemDetails.packaging}</div>
+            <div className="weight-packaging"><span>Weight: </span>{itemDetails.yield}</div>
+            <div className="weight-packaging"><span>Packaging: </span>{itemDetails.packaging}</div>
         </div>
             {itemDetails.description ? (
               <Typography

@@ -34,7 +34,7 @@ useEffect(()=>{
       <Button size="small" onClick={handleClickCallUs} startIcon={<CallIcon/>}>
       </Button>
       <Button size="small" onClick={handleClick}>
-        About Us
+        <span className="about-us">About Us</span>
       </Button>
     </div>
   );

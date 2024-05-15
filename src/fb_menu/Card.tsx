@@ -14,8 +14,8 @@ export default function Card({ item }: any) {
         </p>
 
         <div className="yield-packaging-div">
-          {item.yield?<div><span className="weight-packaging">Weight: </span>{item.yield}</div>:''}
-            <div><span className="weight-packaging">Packaging: </span>{item.packaging}</div>
+          {item.yield?<div className="weight-packaging"><span>Weight: </span>{item.yield}</div>:''}
+            <div className="weight-packaging"><span >Packaging: </span>{item.packaging}</div>
         </div>
 
         {/* Allergies and price */}
