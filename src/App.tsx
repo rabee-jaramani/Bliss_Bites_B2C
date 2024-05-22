@@ -4,7 +4,7 @@ import BottomNav from "./components/BottomNav";
 import Footer from "./footer/Footer";
 
 
-import { items_1,items_2,items_3,items_4 } from "./data/items";
+import { items_1,items_2,items_3,items_4,items_5,items_6 } from "./data/items";
 import { menu_collections } from "./data2";
 import { food_categories } from "./data2";
 
@@ -110,16 +110,16 @@ useEffect(() => {
       setSelectedItems(items_4)
 
     }
-    // if(selectedCollection==='CRACKERS'){
-    //   setSelectedCategoriesTabs([ "CRACKERS",])
-    //   setSelectedItems(items_5)
+    if(selectedCollection==='CRACKERS'){
+      setSelectedCategoriesTabs([ "CRACKERS",])
+      setSelectedItems(items_5)
 
-    // }
-    // if(selectedCollection==='CONDIMENTS'){
-    //   setSelectedCategoriesTabs([ "JAMS & SAUCES"])
-    //   setSelectedItems(items_6)
+    }
+    if(selectedCollection==='CONDIMENTS'){
+      setSelectedCategoriesTabs([ "JAMS & SAUCES"])
+      setSelectedItems(items_6)
 
-    // }
+    }
 }, [selectedCollection])
 
   return (

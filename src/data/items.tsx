@@ -58,7 +58,7 @@ parentCatCollection: [
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs}
 ]},
-    {itemName:'Brioche Bread',price:'60, 110',description:'Indian origin millet flour, Butter, Milk, Eggs, Salt, Agave Syrup, Yeast',image:brioche_bread,packaging:'1pc',yield:'350g, 700g',allergies:[ { allergyName: 'Free From Wheat', allergySrc: free_from_wheat }]},
+    // {itemName:'Brioche Bread',price:'60, 110',description:'Indian origin millet flour, Butter, Milk, Eggs, Salt, Agave Syrup, Yeast',image:brioche_bread,packaging:'1pc',yield:'350g, 700g',allergies:[ { allergyName: 'Free From Wheat', allergySrc: free_from_wheat }]},
     {itemName:'Country Style Slice Bread',price:'48, 88',description:'Indian origin millet flour, Agave Syrup, Pink Salt, Yeast, Sunflower oil, Water',image:country_style_slice_bread,packaging:'1pc',yield:'350g, 700g',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
@@ -395,114 +395,82 @@ export const items_2 = [{
   { allergyName: 'Eggs', allergySrc: eggs }]},  
         ]
       },
-      {
-        categoryName: "CRACKERS",
-        items: [
-          {itemName:'Ragi Chia Seed Crakers',price:'45',description:'Indian origin millet flour, Ragi Aata, Pink Salt, Yeast, Honey, Water, Black Chia Seeds',image:ragi_chia_seed_crakers,packaging:'1 Pack',yield:'150g',allergies:[
-{ allergyName: 'Plant Based', allergySrc: plant_based },
-{ allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
-{ allergyName: 'Dairy', allergySrc: dairy },
-{ allergyName: 'Refined Sugar', allergySrc: refined_sugar },
-{ allergyName: 'Eggs', allergySrc: eggs }
-]},
-          {itemName:'Rosemary crackers',price:'45',description:'Indian origin millet flour, Dry Rosemery, Pink Salt, Yeast, Honey, Water',image:rosemary_crackers,packaging:'1 Pack',yield:'150g',allergies:[
-{ allergyName: 'Plant Based', allergySrc: plant_based },
-{ allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
-{ allergyName: 'Dairy', allergySrc: dairy },
-{ allergyName: 'Refined Sugar', allergySrc: refined_sugar },
-{ allergyName: 'Eggs', allergySrc: eggs }
-]},
-          {itemName:'Zaatar crackers',price:'40',description:'Indian origin millet flour, Zaatar Powder, Pink Salt, Yeast, Honey, Water',image:zaatar_crackers,packaging:'1 Pack',yield:'150g',allergies:[
-{ allergyName: 'Plant Based', allergySrc: plant_based },
-{ allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
-{ allergyName: 'Dairy', allergySrc: dairy },
-{ allergyName: 'Refined Sugar', allergySrc: refined_sugar },
-{ allergyName: 'Eggs', allergySrc: eggs }
-]},
-          {itemName:'Sumac crackers',price:'45',description:'Indian origin millet flour, Sumac Powder, Pink Salt, Yeast, Honey, Water',image:sumac_crackers,packaging:'1 Pack',yield:'150g',allergies:[
-{ allergyName: 'Plant Based', allergySrc: plant_based },
-{ allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
-{ allergyName: 'Dairy', allergySrc: dairy },
-{ allergyName: 'Refined Sugar', allergySrc: refined_sugar },
-{ allergyName: 'Eggs', allergySrc: eggs }
-]},
-        ]
-      },
-      {
-        categoryName: "JAMS & SAUCES",
-        items: [
-          {itemName:'Raspberry Truffle Jam',price:'35',description:'Fresh Raspberry, Agave Syrup, Water, Truffle Oil',image:raspberry_truffle_jam,packaging:'1pc',yield:'100g',allergies:[
-{ allergyName: 'Plant Based', allergySrc: plant_based },
-{ allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
-{ allergyName: 'Dairy', allergySrc: dairy },
-{ allergyName: 'Refined Sugar', allergySrc: refined_sugar },
-{ allergyName: 'Eggs', allergySrc: eggs }
-]},
-          {itemName:'Strawberry Chilli Jam',price:'35',description:'Strawberry Fruits, Agave Syrup, Water, Green Chilli',image:strawberry_chilli_jam,packaging:'1pc',yield:'100g',allergies:[
-{ allergyName: 'Plant Based', allergySrc: plant_based },
-{ allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
-{ allergyName: 'Dairy', allergySrc: dairy },
-{ allergyName: 'Refined Sugar', allergySrc: refined_sugar },
-{ allergyName: 'Eggs', allergySrc: eggs }
-]},
-          {itemName:'Mango Passion Fruit& Chilli Jam',price:'35',description:'Mango,Garlic, Cardamom Seed, Red Chilli, Cumin Seeds, Coconut Sugar, Vinegar, Water, Passion Fruit',image:mango_passion_fruit_and_chilli_jam,packaging:'1pc',yield:'100g',allergies:[
-{ allergyName: 'Plant Based', allergySrc: plant_based },
-{ allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
-{ allergyName: 'Dairy', allergySrc: dairy },
-{ allergyName: 'Refined Sugar', allergySrc: refined_sugar },
-{ allergyName: 'Eggs', allergySrc: eggs }
-]},
-          {itemName:'Sriracha Sauce',price:'45',description:'Red Chilli, Water, Garlic, Coconut Sugar, Pink Salt, Vinegar',image:sriracha_sauce,packaging:'1pc',yield:'100g',allergies:[
-{ allergyName: 'Plant Based', allergySrc: plant_based },
-{ allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
-{ allergyName: 'Dairy', allergySrc: dairy },
-{ allergyName: 'Refined Sugar', allergySrc: refined_sugar },
-{ allergyName: 'Eggs', allergySrc: eggs }
-]}, 
-        ]
-      },
+
+
       ]}]
 
       export const items_5 = [{
         parentCatName: "CRACKERS",
         parentCatCollection: [
           {
-          categoryName: "CRACKERS",
-          items: [
-            {itemName:'Ragi Chia Seed Crakers',price:'45',description:'Indian origin millet flour, Ragi Aata, Pink Salt, Yeast, Honey, Water, Black Chia Seeds',image:ragi_chia_seed_crakers,packaging:'1 Pack',yield:'150g',allergies:[
-  { allergyName: 'Plant Based', allergySrc: plant_based },
-  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
-  { allergyName: 'Dairy', allergySrc: dairy },
-  { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
-  { allergyName: 'Eggs', allergySrc: eggs }
-]},
-            {itemName:'Rosemary crackers',price:'45',description:'Indian origin millet flour, Dry Rosemery, Pink Salt, Yeast, Honey, Water',image:rosemary_crackers,packaging:'1 Pack',yield:'150g',allergies:[
-  { allergyName: 'Plant Based', allergySrc: plant_based },
-  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
-  { allergyName: 'Dairy', allergySrc: dairy },
-  { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
-  { allergyName: 'Eggs', allergySrc: eggs }
-]},
-            {itemName:'Zaatar crackers',price:'40',description:'Indian origin millet flour, Zaatar Powder, Pink Salt, Yeast, Honey, Water',image:zaatar_crackers,packaging:'1 Pack',yield:'150g',allergies:[
-  { allergyName: 'Plant Based', allergySrc: plant_based },
-  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
-  { allergyName: 'Dairy', allergySrc: dairy },
-  { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
-  { allergyName: 'Eggs', allergySrc: eggs }
-]},
-            {itemName:'Sumac crackers',price:'45',description:'Indian origin millet flour, Sumac Powder, Pink Salt, Yeast, Honey, Water',image:sumac_crackers,packaging:'1 Pack',yield:'150g',allergies:[
-  { allergyName: 'Plant Based', allergySrc: plant_based },
-  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
-  { allergyName: 'Dairy', allergySrc: dairy },
-  { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
-  { allergyName: 'Eggs', allergySrc: eggs }
-]},
-          ]
-        },
+            categoryName: "CRACKERS",
+            items: [
+              {itemName:'Ragi Chia Seed Crakers',price:'45',description:'Indian origin millet flour, Ragi Aata, Pink Salt, Yeast, Honey, Water, Black Chia Seeds',image:ragi_chia_seed_crakers,packaging:'1 Pack',yield:'150g',allergies:[
+    { allergyName: 'Plant Based', allergySrc: plant_based },
+    { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
+    { allergyName: 'Dairy', allergySrc: dairy },
+    { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
+    { allergyName: 'Eggs', allergySrc: eggs }
+    ]},
+              {itemName:'Rosemary crackers',price:'45',description:'Indian origin millet flour, Dry Rosemery, Pink Salt, Yeast, Honey, Water',image:rosemary_crackers,packaging:'1 Pack',yield:'150g',allergies:[
+    { allergyName: 'Plant Based', allergySrc: plant_based },
+    { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
+    { allergyName: 'Dairy', allergySrc: dairy },
+    { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
+    { allergyName: 'Eggs', allergySrc: eggs }
+    ]},
+              {itemName:'Zaatar crackers',price:'40',description:'Indian origin millet flour, Zaatar Powder, Pink Salt, Yeast, Honey, Water',image:zaatar_crackers,packaging:'1 Pack',yield:'150g',allergies:[
+    { allergyName: 'Plant Based', allergySrc: plant_based },
+    { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
+    { allergyName: 'Dairy', allergySrc: dairy },
+    { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
+    { allergyName: 'Eggs', allergySrc: eggs }
+    ]},
+              {itemName:'Sumac crackers',price:'45',description:'Indian origin millet flour, Sumac Powder, Pink Salt, Yeast, Honey, Water',image:sumac_crackers,packaging:'1 Pack',yield:'150g',allergies:[
+    { allergyName: 'Plant Based', allergySrc: plant_based },
+    { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
+    { allergyName: 'Dairy', allergySrc: dairy },
+    { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
+    { allergyName: 'Eggs', allergySrc: eggs }
+    ]},
+            ]
+          },
         ]}]
 
         export const items_6 = [{
           parentCatName: "CONDIMENTS",
           parentCatCollection: [
-            
+            {
+              categoryName: "JAMS & SAUCES",
+              items: [
+                {itemName:'Raspberry Truffle Jam',price:'35',description:'Fresh Raspberry, Agave Syrup, Water, Truffle Oil',image:raspberry_truffle_jam,packaging:'1pc',yield:'100g',allergies:[
+      { allergyName: 'Plant Based', allergySrc: plant_based },
+      { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
+      { allergyName: 'Dairy', allergySrc: dairy },
+      { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
+      { allergyName: 'Eggs', allergySrc: eggs }
+      ]},
+                {itemName:'Strawberry Chilli Jam',price:'35',description:'Strawberry Fruits, Agave Syrup, Water, Green Chilli',image:strawberry_chilli_jam,packaging:'1pc',yield:'100g',allergies:[
+      { allergyName: 'Plant Based', allergySrc: plant_based },
+      { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
+      { allergyName: 'Dairy', allergySrc: dairy },
+      { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
+      { allergyName: 'Eggs', allergySrc: eggs }
+      ]},
+                {itemName:'Mango Passion Fruit& Chilli Jam',price:'35',description:'Mango,Garlic, Cardamom Seed, Red Chilli, Cumin Seeds, Coconut Sugar, Vinegar, Water, Passion Fruit',image:mango_passion_fruit_and_chilli_jam,packaging:'1pc',yield:'100g',allergies:[
+      { allergyName: 'Plant Based', allergySrc: plant_based },
+      { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
+      { allergyName: 'Dairy', allergySrc: dairy },
+      { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
+      { allergyName: 'Eggs', allergySrc: eggs }
+      ]},
+                {itemName:'Sriracha Sauce',price:'45',description:'Red Chilli, Water, Garlic, Coconut Sugar, Pink Salt, Vinegar',image:sriracha_sauce,packaging:'1pc',yield:'100g',allergies:[
+      { allergyName: 'Plant Based', allergySrc: plant_based },
+      { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
+      { allergyName: 'Dairy', allergySrc: dairy },
+      { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
+      { allergyName: 'Eggs', allergySrc: eggs }
+      ]}, 
+              ]
+            },
           ]}]

@@ -25,10 +25,12 @@ export const menu_collections = [
   { menu_name: "PATTISSERIE",menu_img: '', },
   { menu_name: "VIENNOISERIE", menu_img: '' },
   { menu_name: "FROMAGERIE", menu_img: '' },
+  { menu_name: "CRACKERS", menu_img: '' },
+  { menu_name: "CONDIMENTS", menu_img: '' },
 
 ];
 
-export const food_collections = ["BOULANGERIE", "PATTISSERIE",'VIENNOISERIE','FROMAGERIE',];
+export const food_collections = ["BOULANGERIE", "PATTISSERIE",'VIENNOISERIE','FROMAGERIE','CRACKERS','CONDIMENTS'];
 export const food_categories = [
   "BREADS",
   "PIZZA BASES",
