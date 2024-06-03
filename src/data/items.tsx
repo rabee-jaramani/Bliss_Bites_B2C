@@ -43,6 +43,33 @@ import eggs from "../images/icons/eggs.svg"
 import dairy from "../images/icons/dairy.svg"
 import plant_based from "../images/icons/vegan.svg"
 
+import almond_flour_pizza_base from "../images/items/almond_flour_pizza_base.webp"
+import almond_flour_pizza_base_2 from "../images/items/almond_flour_pizza_base_2.webp"
+import kidney_bean_pizza_base from "../images/items/kidney_bean_pizza_base.webp"
+import kidney_bean_pizza_base_2 from "../images/items/kidney_bean_pizza_base_2.webp"
+import arabic_bread from "../images/items/arabic_bread.webp"
+
+import almond_bread from "../images/items/almond_bread.webp"
+import rosemary_olive_sourdough_ciabatta from "../images/items/rosemary_olive_sourdough_ciabatta.webp"
+import beetroot_burger_bun from "../images/items/beetroot_burger_bun.webp"
+
+import waffles from "../images/items/waffles.webp"
+import pancake from "../images/items/pancake.webp"
+
+import chocolate_muffin from "../images/items/chocolate_muffin.webp"
+import pecan_carrot_muffin from "../images/items/pecan_carrot_muffin.webp"
+import toffee_dates_muffin from "../images/items/toffee_dates_muffin.webp"
+
+import hazelnut_tart from "../images/items/hazelnut_tart.webp"
+import banana_pecan_tea_cake from "../images/items/banana_pecan_tea_cake.webp"
+
+import almond_croissant from "../images/items/almond_croissant.webp"
+import cheese_croissant from "../images/items/cheese_croissant.webp"
+import pain_au_chocolat from "../images/items/pain_au_chocolat.webp"
+import plain_croissant from "../images/items/plain_croissant.webp"
+import raspberry_danish from "../images/items/raspberry_danish.webp"
+import zaatar_puff from "../images/items/zaatar_puff.webp"
+
 
 
 export const items_1 = [{
@@ -51,7 +78,7 @@ parentCatCollection: [
   {
   categoryName: "BREADS",
   items: [
-    {itemName:'Almond Bread',price:'60, 110',description:'Indian origin millet flour, Almond Powder, Pink Salt, Agave Syrup, Yeast, Water',image:placeholder,packaging:'1pc',yield:'350g, 700g',allergies:[
+    {itemName:'Almond Bread',price:'60, 110',description:'Indian origin millet flour, Almond Powder, Pink Salt, Agave Syrup, Yeast, Water',image:almond_bread,packaging:'1pc',yield:'350g, 700g',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based},
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy},
@@ -80,7 +107,7 @@ parentCatCollection: [
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }
 ]},
-    {itemName:'Rosemary Olive Sourdough Ciabatta',price:'49, 89',description:'Indian origin millet flour, Pink Salt, Yeast, Starter, Dry Rosemary, Black Olive, Water',image:placeholder,packaging:'1pc',yield:'350g, 700g',allergies:[
+    {itemName:'Rosemary Olive Sourdough Ciabatta',price:'49, 89',description:'Indian origin millet flour, Pink Salt, Yeast, Starter, Dry Rosemary, Black Olive, Water',image:rosemary_olive_sourdough_ciabatta,packaging:'1pc',yield:'350g, 700g',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
@@ -106,28 +133,28 @@ parentCatCollection: [
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }
 ]},
-    {itemName:'Kidney Bean Pizza Base 6inch ',price:'40',description:'Indian origin millet flour, Salt, Agave Syrup, Yeast, Sunflower oil, Water, Kidney Bean Flour',image:placeholder,packaging:'2pcs',yield:'120g',allergies:[
+    {itemName:'Kidney Bean Pizza Base 6inch ',price:'40',description:'Indian origin millet flour, Salt, Agave Syrup, Yeast, Sunflower oil, Water, Kidney Bean Flour',image:kidney_bean_pizza_base,packaging:'2pcs',yield:'120g',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }
 ]},
-    {itemName:'Kidney Bean Pizza Base 10inches',price:'50',description:'Indian origin millet flour, Salt, Agave Syrup, Yeast, Sunflower oil, Water, Kidney Bean Flour',image:placeholder,packaging:'2pcs',yield:'250g',allergies:[
+    {itemName:'Kidney Bean Pizza Base 10inches',price:'50',description:'Indian origin millet flour, Salt, Agave Syrup, Yeast, Sunflower oil, Water, Kidney Bean Flour',image:kidney_bean_pizza_base_2,packaging:'2pcs',yield:'250g',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }
 ]},
-    {itemName:'Almond Flour Pizza Base 6inch ',price:'40',description:'Indian origin millet flour, Salt, Agave Syrup, Yeast, Sunflower oil, Water, Almond Flour',image:placeholder,packaging:'2pcs',yield:'120g',allergies:[
+    {itemName:'Almond Flour Pizza Base 6inch ',price:'40',description:'Indian origin millet flour, Salt, Agave Syrup, Yeast, Sunflower oil, Water, Almond Flour',image:almond_flour_pizza_base,packaging:'2pcs',yield:'120g',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }
 ]},
-    {itemName:'Almond Flour Pizza Base 10inches',price:'50',description:'Indian origin millet flour, Salt, Agave Syrup, Yeast, Sunflower oil, Water, Almond Flour',image:placeholder,packaging:'2pcs',yield:'250g',allergies:[
+    {itemName:'Almond Flour Pizza Base 10inches',price:'50',description:'Indian origin millet flour, Salt, Agave Syrup, Yeast, Sunflower oil, Water, Almond Flour',image:almond_flour_pizza_base_2,packaging:'2pcs',yield:'250g',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
@@ -179,13 +206,13 @@ parentCatCollection: [
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }
 ]},
-    {itemName:'Beetroot Burger Bun',price:'35',description:'Indian origin millet flour, Agave Syrup, Pink Salt, Yeast, Sunflower oil, Beetroot Juice',image:placeholder,packaging:'3pcs',yield:'270g',allergies:[ { allergyName: 'Free From Wheat', allergySrc: free_from_wheat }]},
+    {itemName:'Beetroot Burger Bun',price:'35',description:'Indian origin millet flour, Agave Syrup, Pink Salt, Yeast, Sunflower oil, Beetroot Juice',image:beetroot_burger_bun,packaging:'3pcs',yield:'270g',allergies:[ { allergyName: 'Free From Wheat', allergySrc: free_from_wheat }]},
   ]
 },
 {
   categoryName: "LOCAL AMORE",
   items: [
-    {itemName:'Arabic Bread',price:'40',description:'Indian origin millet flour, Salt, Agave Syrup, Yeast, Sunflower oil, Water',image:placeholder,packaging:'4pcs',yield:'240g',allergies:[
+    {itemName:'Arabic Bread',price:'40',description:'Indian origin millet flour, Salt, Agave Syrup, Yeast, Sunflower oil, Water',image:arabic_bread,packaging:'4pcs',yield:'240g',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
@@ -203,7 +230,7 @@ export const items_2 = [{
     {
     categoryName: "TARTS",
     items: [
-      {itemName:'Hazelnut Tart',price:'100,190',description:'Tart Shell Small, hazelniut chocolate creme, hazelnuts',image:placeholder,packaging:'Box of 6, Box of 12',yield:'',allergies:[
+      {itemName:'Hazelnut Tart',price:'100,190',description:'Tart Shell Small, hazelniut chocolate creme, hazelnuts',image:hazelnut_tart,packaging:'Box of 6, Box of 12',yield:'',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
@@ -243,7 +270,7 @@ export const items_2 = [{
   {
     categoryName: "TEA CAKES",
     items: [
-      {itemName:'Banana Pecan Tea Cake',price:'330, 450',description:'Butter, Agave Syrup, Pasteurized Egg, Indian origin millet flour, Almond Powder, Baking Powder, Cinnamon Powder, Pecan nut, Banana, Cream Cheese, Cinnamon Powder',image:placeholder,packaging:'1pc',yield:'500g, 750g',allergies:[  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
+      {itemName:'Banana Pecan Tea Cake',price:'330, 450',description:'Butter, Agave Syrup, Pasteurized Egg, Indian origin millet flour, Almond Powder, Baking Powder, Cinnamon Powder, Pecan nut, Banana, Cream Cheese, Cinnamon Powder',image:banana_pecan_tea_cake,packaging:'1pc',yield:'500g, 750g',allergies:[  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }]},
       {itemName:'Pecan Carrot Tea Cake',price:'330, 450',description:'Pasteurized Egg, Agave Syrup, Sunflower oil, Long Life Milk, Vanilla Esence, Indian origin millet flour, Cinnamon Powder, Baking Powder, Baking Soda, Chopped Peacan nut, Carrots, Whipped Cream, Cream Cheese, Icing Sugar, Mascopan Cream Cheese, Pecan nut',image:pecan_carrot_tea_cake,packaging:'1pc',yield:'500g, 750g',allergies:[  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
@@ -257,13 +284,13 @@ export const items_2 = [{
   {
     categoryName: "MUFFINS",
     items: [
-      {itemName:'Chocolate Muffin',price:'100,190',description:'Butter, Agave Syrup, Pasteurized Egg, Indian origin millet flour, Baking Soda, Baking Powder, Cocoa Powder , Dark Chocolate ',image:placeholder,packaging:'Box of 6, Box of 12',yield:'',allergies:[  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
+      {itemName:'Chocolate Muffin',price:'100,190',description:'Butter, Agave Syrup, Pasteurized Egg, Indian origin millet flour, Baking Soda, Baking Powder, Cocoa Powder , Dark Chocolate ',image:chocolate_muffin,packaging:'Box of 6, Box of 12',yield:'',allergies:[  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }]},
-      {itemName:'Pecan Carrot Muffin',price:'100,190',description:'Pasteurized Egg, Agave Syrup, Sunflower oil, Long Life Milk, Vanilla Esence, Indian origin millet flour, Cinnamon Powder, Baking Powder, Baking Soda, Chopped Pecan nut, Carrots',image:placeholder,packaging:'Box of 6, Box of 12',yield:'',allergies:[  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
+      {itemName:'Pecan Carrot Muffin',price:'100,190',description:'Pasteurized Egg, Agave Syrup, Sunflower oil, Long Life Milk, Vanilla Esence, Indian origin millet flour, Cinnamon Powder, Baking Powder, Baking Soda, Chopped Pecan nut, Carrots',image:pecan_carrot_muffin,packaging:'Box of 6, Box of 12',yield:'',allergies:[  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }]},
-      {itemName:'Toffee Dates Muffin',price:'100,190',description:'Water, Whole Dates, Butter, Agave Syrup, Pasteurized Egg, Indian origin millet flour, Baking Soda, Cinnamon Powder',image:placeholder,packaging:'Box of 6, Box of 12',yield:'',allergies:[  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
+      {itemName:'Toffee Dates Muffin',price:'100,190',description:'Water, Whole Dates, Butter, Agave Syrup, Pasteurized Egg, Indian origin millet flour, Baking Soda, Cinnamon Powder',image:toffee_dates_muffin,packaging:'Box of 6, Box of 12',yield:'',allergies:[  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }]}, 
     ]
@@ -271,14 +298,14 @@ export const items_2 = [{
   {
     categoryName: "BREAKFAST ESSENTIALS",
     items: [
-      {itemName:'Pancake',price:'75',description:'GF Flour, Vanilla Essence, Baking Powder, Baking Soda, HM Almond Milk (Bulk), Greek Yoghurt, Agave Syrup, Pink Salt',image:placeholder,packaging:'Box of 6',yield:'',allergies:[
+      {itemName:'Pancake',price:'75',description:'GF Flour, Vanilla Essence, Baking Powder, Baking Soda, HM Almond Milk (Bulk), Greek Yoghurt, Agave Syrup, Pink Salt',image:pancake,packaging:'Box of 6',yield:'',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }
 ]},
-      {itemName:'Waffle ',price:'75',description:'GF Flour, Baking Powder, Baking Soda, Pink Salt, Agave Syrup, HM Almond Milk (Bulk), Orange Juice, Olive Oil',image:placeholder,packaging:'Box of 6',yield:'',allergies:[
+      {itemName:'Waffle ',price:'75',description:'GF Flour, Baking Powder, Baking Soda, Pink Salt, Agave Syrup, HM Almond Milk (Bulk), Orange Juice, Olive Oil',image:waffles,packaging:'Box of 6',yield:'',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
@@ -309,42 +336,42 @@ export const items_2 = [{
       {
       categoryName: "CROISSANTS & DANISH",
       items: [
-        {itemName:'Pain au chocolat',price:'120',description:'Indian origin millet flour, Pink Salt, Yeast, Agave, Water, Milk Powder, Butter, Dark Chocolate',image:placeholder,packaging:'Box of 6',yield:'',allergies:[
+        {itemName:'Pain au chocolat',price:'120',description:'Indian origin millet flour, Pink Salt, Yeast, Agave, Water, Milk Powder, Butter, Dark Chocolate',image:pain_au_chocolat,packaging:'Box of 6',yield:'',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }
 ]},
-        {itemName:'Plain Croissant',price:'120',description:'Indian origin millet flour, Pink Salt, Yeast, Agave, Water, Milk Powder, Butter',image:placeholder,packaging:'Box of 6',yield:'',allergies:[
+        {itemName:'Plain Croissant',price:'120',description:'Indian origin millet flour, Pink Salt, Yeast, Agave, Water, Milk Powder, Butter',image:plain_croissant,packaging:'Box of 6',yield:'',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }
 ]},
-        {itemName:'Almond Croissant',price:'120',description:'Indian origin millet flour, Almond, Pink Salt, Yeast, Agave, Water, Milk Powder, Butter',image:placeholder,packaging:'Box of 6',yield:'',allergies:[
+        {itemName:'Almond Croissant',price:'120',description:'Indian origin millet flour, Almond, Pink Salt, Yeast, Agave, Water, Milk Powder, Butter',image:almond_croissant,packaging:'Box of 6',yield:'',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }
 ]},
-        {itemName:'Cheese Croissant',price:'120',description:'Indian origin millet flour, Cheese, Pink Salt, Yeast, Agave, Water, Milk Powder, Butter',image:placeholder,packaging:'Box of 6',yield:'',allergies:[
+        {itemName:'Cheese Croissant',price:'120',description:'Indian origin millet flour, Cheese, Pink Salt, Yeast, Agave, Water, Milk Powder, Butter',image:cheese_croissant,packaging:'Box of 6',yield:'',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }
 ]},
-        {itemName:'Zaatar Puff',price:'120',description:'Indian origin millet flour, Zaatar Powder, Pink Salt, Yeast, Agave, Water, Milk Powder, Butter',image:placeholder,packaging:'Box of 6',yield:'',allergies:[
+        {itemName:'Zaatar Puff',price:'120',description:'Indian origin millet flour, Zaatar Powder, Pink Salt, Yeast, Agave, Water, Milk Powder, Butter',image:zaatar_puff,packaging:'Box of 6',yield:'',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }
 ]},
-        {itemName:'Raspberry Danish',price:'120',description:'Indian origin millet flour, Raspberry, Pink Salt, Yeast, Agave, Water, Milk Powder, Butter',image:placeholder,packaging:'Box of 6',yield:'',allergies:[
+        {itemName:'Raspberry Danish',price:'120',description:'Indian origin millet flour, Raspberry, Pink Salt, Yeast, Agave, Water, Milk Powder, Butter',image:raspberry_danish,packaging:'Box of 6',yield:'',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
