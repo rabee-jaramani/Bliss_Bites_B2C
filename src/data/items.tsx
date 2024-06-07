@@ -69,6 +69,7 @@ import pain_au_chocolat from "../images/items/pain_au_chocolat.webp"
 import plain_croissant from "../images/items/plain_croissant.webp"
 import raspberry_danish from "../images/items/raspberry_danish.webp"
 import zaatar_puff from "../images/items/zaatar_puff.webp"
+import country_style_sourdough_ciabatta from "../images/items/country_style_sourdough_ciabatta.webp"
 
 
 
@@ -93,7 +94,7 @@ parentCatCollection: [
   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
   { allergyName: 'Eggs', allergySrc: eggs }
 ]},
-    {itemName:'Country Style Sourdough Ciabatta',price:'48, 88',description:'Indian origin millet flour, Pink Salt, Yeast, Starter, Water',image:placeholder,packaging:'1pc',yield:'350g, 700g',allergies:[
+    {itemName:'Country Style Sourdough Ciabatta',price:'48, 88',description:'Indian origin millet flour, Pink Salt, Yeast, Starter, Water',image:country_style_sourdough_ciabatta,packaging:'1pc',yield:'350g, 700g',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },
@@ -119,20 +120,20 @@ parentCatCollection: [
 {
   categoryName: "PIZZA BASES",
   items: [
-    {itemName:'Pizza Base 6inch',price:'40',description:'Indian origin millet flour, Salt, Agave Syrup, Yeast, Sunflower oil, Water',image:placeholder,packaging:'2pcs',yield:'120g',allergies:[
-  { allergyName: 'Plant Based', allergySrc: plant_based },
-  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
-  { allergyName: 'Dairy', allergySrc: dairy },
-  { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
-  { allergyName: 'Eggs', allergySrc: eggs }
-]},
-    {itemName:'Pizza Base 10inches',price:'50',description:'Indian origin millet flour, Salt, Agave Syrup, Yeast, Sunflower oil, Water',image:placeholder,packaging:'2pcs',yield:'250g',allergies:[
-  { allergyName: 'Plant Based', allergySrc: plant_based },
-  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
-  { allergyName: 'Dairy', allergySrc: dairy },
-  { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
-  { allergyName: 'Eggs', allergySrc: eggs }
-]},
+//     {itemName:'Pizza Base 6inch',price:'40',description:'Indian origin millet flour, Salt, Agave Syrup, Yeast, Sunflower oil, Water',image:placeholder,packaging:'2pcs',yield:'120g',allergies:[
+//   { allergyName: 'Plant Based', allergySrc: plant_based },
+//   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
+//   { allergyName: 'Dairy', allergySrc: dairy },
+//   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
+//   { allergyName: 'Eggs', allergySrc: eggs }
+// ]},
+//     {itemName:'Pizza Base 10inches',price:'50',description:'Indian origin millet flour, Salt, Agave Syrup, Yeast, Sunflower oil, Water',image:placeholder,packaging:'2pcs',yield:'250g',allergies:[
+//   { allergyName: 'Plant Based', allergySrc: plant_based },
+//   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
+//   { allergyName: 'Dairy', allergySrc: dairy },
+//   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
+//   { allergyName: 'Eggs', allergySrc: eggs }
+// ]},
     {itemName:'Kidney Bean Pizza Base 6inch ',price:'40',description:'Indian origin millet flour, Salt, Agave Syrup, Yeast, Sunflower oil, Water, Kidney Bean Flour',image:kidney_bean_pizza_base,packaging:'2pcs',yield:'120g',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
@@ -192,14 +193,14 @@ parentCatCollection: [
 {
   categoryName: "BETWEEN THE BUNS",
   items: [
-    {itemName:'Burger Bun',price:'35',description:'Indian origin millet flour, Agave Syrup, Pink Salt, Yeast, Sunflower oil, Water',image:burger_bun,packaging:'3pcs',yield:'270g',allergies:[
-  { allergyName: 'Plant Based', allergySrc: plant_based },
-  { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
-  { allergyName: 'Dairy', allergySrc: dairy },
-  { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
-  { allergyName: 'Eggs', allergySrc: eggs }
-]},
-     {itemName:'Sesame Burger Bun',price:'35',description:'Indian origin millet flour, Agave Syrup, Pink Salt, sesame seeds,  Yeast, Sunflower oil, Water',image:placeholder,packaging:'3pcs',yield:'270g',allergies:[
+//     {itemName:'Burger Bun',price:'35',description:'Indian origin millet flour, Agave Syrup, Pink Salt, Yeast, Sunflower oil, Water',image:burger_bun,packaging:'3pcs',yield:'270g',allergies:[
+//   { allergyName: 'Plant Based', allergySrc: plant_based },
+//   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
+//   { allergyName: 'Dairy', allergySrc: dairy },
+//   { allergyName: 'Refined Sugar', allergySrc: refined_sugar },
+//   { allergyName: 'Eggs', allergySrc: eggs }
+// ]},
+     {itemName:'Sesame Burger Bun',price:'35',description:'Indian origin millet flour, Agave Syrup, Pink Salt, sesame seeds,  Yeast, Sunflower oil, Water',image:burger_bun,packaging:'3pcs',yield:'270g',allergies:[
   { allergyName: 'Plant Based', allergySrc: plant_based },
   { allergyName: 'Free From Wheat', allergySrc: free_from_wheat },
   { allergyName: 'Dairy', allergySrc: dairy },

@@ -106,7 +106,7 @@ useEffect(() => {
 
     }
     if(selectedCollection==='FROMAGERIE'){
-      setSelectedCategoriesTabs(["CHEESE","CHEESE PLATTER","CRACKERS","JAMS & SAUCES"])
+      setSelectedCategoriesTabs(["CHEESE","CHEESE PLATTER",])
       setSelectedItems(items_4)
 
     }
