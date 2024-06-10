@@ -11,6 +11,12 @@ const [windowWidth,setWindowWidth]=useState(0)
       "_blank"
     );
   };
+  const handleCafeMenu = () => {
+    window.open(
+      "https://apparelgroupapps.com/bliss-bites-menu/",
+      "_blank"
+    );
+  };
   const handleClickWhatssap = () => {
     window.open(
       "https://wa.me/971508377409",
@@ -28,14 +34,10 @@ useEffect(()=>{
 })
   return (
     <div className="buttons-div">
-      <Button size="small" onClick={handleClickWhatssap} startIcon={<WhatsAppIcon/>}>
-
-      </Button>
-      <Button size="small" onClick={handleClickCallUs} startIcon={<CallIcon/>}>
-      </Button>
-      <Button size="small" onClick={handleClick}>
-        <span className="about-us">About Us</span>
-      </Button>
+      <Button size="small" onClick={handleClickWhatssap} startIcon={<WhatsAppIcon/>}></Button>
+      <Button size="small" onClick={handleClickCallUs} startIcon={<CallIcon/>}></Button>
+      <Button size="small" onClick={handleCafeMenu}><span className="about-us">Cafe Menu</span></Button>
+      <Button size="small" onClick={handleClick}><span className="about-us">About Us</span></Button>      
     </div>
   );
 };
